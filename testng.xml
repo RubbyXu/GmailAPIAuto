@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Gmail API Suite" parallel="tests">
+    <test name="Run All Tests">
+        <classes>
+            <class name="com.gmailapi.runner.TestGmailAPI"></class>
+        </classes>
+    </test>
+</suite>
